@@ -12,7 +12,7 @@ export default function SearchBar() {
                 placeholder={"Search a place"}
                 autoComplete="off"
             />
-            <Button type="submit">Search</Button>
+            <Button.Button type="submit">Search</Button.Button>
         </form>
     );
 }
