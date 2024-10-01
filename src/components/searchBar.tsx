@@ -1,4 +1,4 @@
-import Button from "../button/button";
+import { Button } from "./ui/button";
 
 export default function SearchBar() {
     return (
@@ -12,7 +12,7 @@ export default function SearchBar() {
                 placeholder={"Search a place"}
                 autoComplete="off"
             />
-            <Button.Button type="submit">Search</Button.Button>
+            <Button type="submit" variant="secondary" size="sm">Search</Button>
         </form>
     );
 }
